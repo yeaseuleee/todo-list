@@ -1,0 +1,40 @@
+body {
+  background-image: url("../img/background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: #fff;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.task-area {
+  border: 1px solid #efefef;
+}
+.task-area .task-tabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #efefef;
+  position: relative;
+}
+.task-area .task-tabs div {
+  padding: 1rem;
+}
+.task-area .task-tabs #under-line {
+  padding: 0;
+  height: 4px;
+  background-color: #309383;
+  position: absolute;
+  width: 60px;
+  left: 0;
+  top: 39px;
+}
+.task-area .task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}/*# sourceMappingURL=style.css.map */
