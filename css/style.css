@@ -37,4 +37,13 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1em;
+}
+.task-area .task .task-done {
+  text-decoration: line-through;
+}
+.task-area .task .btn {
+  padding: 0.3rem;
+}
+.task-area .task:has(.task-done) {
+  background-color: #ddd;
 }/*# sourceMappingURL=style.css.map */

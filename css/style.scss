@@ -40,5 +40,18 @@ body {
         align-items: center;
         justify-content: space-between;
         padding: 1em;
+
+        .task-done {
+            text-decoration: line-through;
+              
+        }
+
+        .btn {
+            padding: 0.3rem;
+        }
+
+        &:has(.task-done) {
+            background-color: #ddd;
+        }
     }
 }
